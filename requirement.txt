@@ -1,0 +1,6 @@
+pandas==2.0.3
+polars==0.20.5
+glob2==0.7
+aiosqlite==0.18.0
+PyYAML==6.0
+selenium==4.24.0

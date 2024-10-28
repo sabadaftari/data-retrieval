@@ -1,0 +1,19 @@
+Metadata: 
+  Species: "human"
+  BSource: "PBMC"
+  BType: "Unsorted-B-Cells"
+  Longitudinal: 
+  Age:
+  Disease: "HCV"
+  Subject: "defined"
+  Vaccine: 
+  Chain: "Heavy"
+  Isotype: "IGHE"
+
+Pre-entry: 
+  - sequence_alignment_aa
+  - germline_alignment_aa 
+  - v_call 
+  - d_call
+  - j_call
+  - ANARCI_status
