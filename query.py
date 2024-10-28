@@ -62,12 +62,12 @@ def query_database(db_path, table_name, filter_conditions=None, select_columns='
     
     return df
 
-# Example usage:
-# Querying for specific 'Run' values and selecting certain columns from the Main_Run_Table
-db_path = 'multi_run_data.db'
-filter_conditions = {'Species': 'human', 'Disease': 'HCV'}
-select_columns = ['Run', 'Age', 'Disease']
-results_df = query_database(db_path, 'Main_Run_Table', filter_conditions, select_columns, limit=100)
+if __name__ == '__main__':
+    # Querying for specific 'Run' values and selecting certain columns from the Main_Run_Table
+    db_path = 'multi_run_data.db'
+    filter_conditions = {'Species': 'human', 'Disease': 'HCV'}
+    select_columns = ['Run', 'Age', 'Disease']
+    results_df = query_database(db_path, 'Main_Run_Table', filter_conditions, select_columns, limit=100)
 
-# Display the result
-print(results_df)
+    # Display the result
+    print(results_df)
