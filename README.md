@@ -1,7 +1,7 @@
 # OAS database retrieval
 OAS Database Retrieval is a Python project designed to fetch, process, and store antibody sequence data from the Observed Antibody Space (OAS) database. OAS is a comprehensive repository containing over one billion annotated sequences from more than 80 studies, covering diverse immune states, species, and individuals.
 
-#File Structure
+## File Structure
 
 * **main.py:** Main entry point for the project (if applicable).
 * **make_db.py:** Contains functions to process CSV files, extract metadata, and build the SQLite database.
